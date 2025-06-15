@@ -15,8 +15,7 @@ class _PaymentGatewayState extends State<PaymentGateway> {
 
   void openCheckout(int amount) async {
     var options = {
-      // 'key': 'rzp_test_1jqzdZdWcD2UkP',
-      'key': 'rzp_test_caC5G3m0zyGNkV',
+      'key': 'yourkeyhere',
       'amount': amount * 100,
       'name': 'Saniya Mhamulkar',
       'description': 'Test Payment',
